@@ -26,7 +26,7 @@ header {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)) ;
   grid-gap: 20px;
   margin-top: 44px 40px;
 
@@ -101,7 +101,7 @@ font-family: 'Work Sans';
     top:1px;
 }
 
-.project {
+.projects {
   box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);  
   width: 100%;
 }
@@ -152,7 +152,7 @@ font-family: 'Work Sans';
 }
 
 
-footer {
+footer div{
   margin-top: 44px;
 
   height: 100%;
